@@ -5,7 +5,7 @@ public class Triangle extends Shapes {
         super(kenar, yukseklik, 0);
     }
     @Override
-    double calculateArea() {
+    public double calculateArea() {
         return (getKenar()*(getYukseklik()/2));
     }
 }
