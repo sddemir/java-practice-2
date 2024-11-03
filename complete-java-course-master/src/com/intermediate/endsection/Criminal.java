@@ -1,7 +1,7 @@
 package com.intermediate.endsection;
 
 public class Criminal extends Person{
-    public Criminal(String name, String nickname, int yearOfBorn, String expertIn, String[] items) {
+    public Criminal(String name, String nickname, int yearOfBorn, String expertIn, Item[] items) {
         super(name, nickname, yearOfBorn, expertIn, items);
 
     }
