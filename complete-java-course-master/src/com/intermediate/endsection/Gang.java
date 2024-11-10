@@ -9,8 +9,10 @@ public class Gang {
     public double getSumRobbedValue(){
         return sumRobbedValue;
     }
-    public Criminal[] getGangInfo(){
-        return criminals;
+    public void getGangInfo(){
+        for (Criminal criminal : criminals){
+            System.out.println(criminal);
+        }
     }
     public boolean isSuccessfulRobbery(){
         if(r<(criminals.length*Criminal.getSuccessPercentage())){
@@ -20,5 +22,13 @@ public class Gang {
 
     public void letsRob(Building[] buildings){
          int rForBuilding = (int) (Math.random() * (buildings.length - 0)) + 0;
+    }
+
+    if(true){
+        System.out.println("The gang managed to rob the following items from the" +
+                Building.getName() + ":");
+        for()
+    }else{
+        System.out.println("The gang tried to rob the" + Building.getName() + "but they failed.");
     }
 }
