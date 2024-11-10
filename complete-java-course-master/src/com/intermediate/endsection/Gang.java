@@ -1,7 +1,7 @@
 package com.intermediate.endsection;
 import java.util.Random;
 
-public class Gang {
+public class Gang{
     private Criminal[] criminals;
     private int r = (int) (Math.random() * (100 - 0)) + 0;
     private double sumRobbedValue;
@@ -23,12 +23,14 @@ public class Gang {
     public void letsRob(Building[] buildings){
          int rForBuilding = (int) (Math.random() * (buildings.length - 0)) + 0;
     }
-
+    public void wrap(){
     if(true){
         System.out.println("The gang managed to rob the following items from the" +
                 Building.getName() + ":");
-        for()
+        for(Item item : items){
+            System.out.println(item);
+        }
     }else{
         System.out.println("The gang tried to rob the" + Building.getName() + "but they failed.");
-    }
+    }}
 }
