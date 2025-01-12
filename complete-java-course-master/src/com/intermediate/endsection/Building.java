@@ -1,7 +1,7 @@
 package com.intermediate.endsection;
 
 public class Building {
-    private static String name;
+    private String name;
     private Item[] items;
 
     public Building(String name, Item[] items) {
@@ -9,7 +9,7 @@ public class Building {
         this.items = items;
     }
 
-    public static String getName(){
+    public String getName(){
         return name;
     }
     public Item[] getItems(){

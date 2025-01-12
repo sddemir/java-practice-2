@@ -21,7 +21,7 @@ public abstract class Person {
         System.out.println("Year of Born: " + yearOfBorn);
         System.out.println("Expert In: " + expertIn);
         for (Item item : items){
-            System.out.println(item);
+            System.out.println(item.getName());
         }
     }
     public String getName(){

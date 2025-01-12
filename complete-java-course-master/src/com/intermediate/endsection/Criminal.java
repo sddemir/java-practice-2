@@ -5,7 +5,7 @@ public class Criminal extends Person{
         super(name, nickname, yearOfBorn, expertIn, items);
 
     }
-    private static final int SUCCESS_PERCENTAGE = 0;
+    public static final int SUCCESS_PERCENTAGE = 30;
      public static int getSuccessPercentage() {
          return SUCCESS_PERCENTAGE;
      }
